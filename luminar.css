@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    line-height: 56px;
+}
+.p1{
+   margin-bottom: 4rem !important;
+   margin-right: 20rem; 
+   margin-top: 3rem;
+   text-align: justify;
+}
+.head1{
+    margin-right: 13rem;
+    text-align: justify;
+
+}
+.p2{
+   margin-bottom: 2rem !important;
+   margin-right: 20rem; 
+   margin-top: 3rem;
+   text-align: justify;
+}
+.head2{
+    margin-right: 14rem;
+    text-align: justify;
+
+}
+#btnsubmit{
+    background-color: #5e068a;
+    color: aliceblue;
+    width: 133px;
+    margin-right: 236px;
+    height: 38px
+}
+#modal1{
+    padding: 0 50px;
+}
+input{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+textarea{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+select{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+.viewbtn{
+    width: 189px;
+    height: 52px;
+    background-color: #5e068a;
+    margin-right: 797px;
+    border-radius: 87px;
+    color: white;
+    outline: none;
+    border: none;
+}
+.navtop{
+    width: 100%;
+    height: 30px;
+    background-color: #5e068a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    padding: 1rem 0;
+
+}
+.navtop p{
+    margin-bottom: 0;
+}
