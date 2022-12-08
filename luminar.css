@@ -96,3 +96,72 @@ select{
     border: none;
 }
 
+.Cources{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.c-head{
+    color: #5e068a;
+}
+.course{
+    width: 87%;
+    margin-top: 2rem;
+    
+}
+.box{
+    margin-top: 6rem;
+   
+}.btn-box{
+    background-color: #5e068a;
+    color: white;
+    border: none;
+    outline: none;
+    width: 8rem;
+    height: 2rem;
+}
+.boxbtnd-view{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxbtn-view{
+    width: 14rem;
+    height: 4rem;
+    border: #5e068a 2px solid;
+    color:#5e068a;
+    background-color:white;
+    border-radius: 2rem;
+}
+.course:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translate(0, -10px);
+    transition: 0.3s;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translate(0, -10px);
+    transition: 0.3s;
+}
+.boxbtn-view:hover{
+    background-color: #5e068a;
+    color: white;
+    transition: 0.7s;
+    
+}
+
+
+
+
+
+@media(){
+    .card card-3{
+        display: none;
+    }
+}
+
+
